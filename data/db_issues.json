@@ -1,0 +1,414 @@
+[
+  {
+    "_id": "issue_cf_1001",
+    "issueId": "CF-2026-1001",
+    "studentId": "user_student_001",
+    "studentName": "Alex Chen",
+    "studentEmail": "alex.chen@campusfix.edu",
+    "studentDepartment": "Computer Science & Engineering",
+    "title": "Water leaking continuously in hostel 4th floor bathroom",
+    "description": "The overhead pipe joint in the 4th floor west wing washroom has cracked. Water is pooling rapidly across the floor creating a slipping hazard.",
+    "category": "Hostel",
+    "location": "Hostel Block B, 4th Floor, West Wing Restroom",
+    "priority": "High",
+    "status": "In Progress",
+    "assignedDepartment": "Plumbing & Civil Maintenance",
+    "adminRemarks": "Maintenance team dispatched. Main valve temporarily shut; pipe replacement in progress.",
+    "imageUrl": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80",
+    "statusHistory": [
+      {
+        "status": "Pending",
+        "changedBy": "Alex Chen",
+        "changedByRole": "student",
+        "timestamp": "2026-09-30T18:47:41.055Z",
+        "remarks": "Issue reported by student."
+      },
+      {
+        "status": "Assigned",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-09-30T23:35:41.055Z",
+        "department": "Plumbing & Civil Maintenance",
+        "remarks": "Assigned to Mr. Robert (Plumbing Supervisor)."
+      },
+      {
+        "status": "In Progress",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-10-01T18:47:41.055Z",
+        "remarks": "Technicians on site repairing the pipe fitting."
+      }
+    ],
+    "createdAt": "2026-09-30T18:47:41.055Z",
+    "updatedAt": "2026-10-01T18:47:41.055Z"
+  },
+  {
+    "_id": "issue_cf_1002",
+    "issueId": "CF-2026-1002",
+    "studentId": "user_student_001",
+    "studentName": "Alex Chen",
+    "studentEmail": "alex.chen@campusfix.edu",
+    "studentDepartment": "Computer Science & Engineering",
+    "title": "Ceiling projector lamp blown in Lecture Hall 302",
+    "description": "The overhead EPSON projector turned off with a loud pop and blinking red warning indicator during Advanced Algorithms class.",
+    "category": "Classroom",
+    "location": "Academic Complex Block 2, Lecture Hall 302",
+    "priority": "Medium",
+    "status": "Resolved",
+    "assignedDepartment": "Academic Facilities & Audio-Visual Cell",
+    "adminRemarks": "Replaced optical bulb assembly and tested HDMI signal transmission. Working normally.",
+    "statusHistory": [
+      {
+        "status": "Pending",
+        "changedBy": "Alex Chen",
+        "changedByRole": "student",
+        "timestamp": "2026-09-27T18:47:41.055Z"
+      },
+      {
+        "status": "Assigned",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-09-28T06:47:41.055Z",
+        "department": "Academic Facilities & Audio-Visual Cell"
+      },
+      {
+        "status": "In Progress",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-09-28T18:47:41.055Z"
+      },
+      {
+        "status": "Resolved",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-09-28T23:35:41.055Z",
+        "remarks": "Bulb replaced and color calibration verified."
+      }
+    ],
+    "createdAt": "2026-09-27T18:47:41.055Z",
+    "updatedAt": "2026-09-28T23:35:41.055Z"
+  },
+  {
+    "_id": "issue_cf_1003",
+    "issueId": "CF-2026-1003",
+    "studentId": "user_student_002",
+    "studentName": "Priya Patel",
+    "studentEmail": "priya.patel@campusfix.edu",
+    "studentDepartment": "Mechanical Engineering",
+    "title": "CNC milling machine safety emergency stop switch stuck",
+    "description": "The red emergency cut-off button on CNC Mill #3 remains depressed and cannot be reset mechanically. Machine is offline.",
+    "category": "Laboratory",
+    "location": "Mechanical Workshop, Advanced Machining Lab B-04",
+    "priority": "Critical",
+    "status": "Assigned",
+    "assignedDepartment": "Laboratory Technical Support & Safety Cell",
+    "adminRemarks": "Machine locked out with LOTO tag. Vendor technician scheduled for inspection today.",
+    "statusHistory": [
+      {
+        "status": "Pending",
+        "changedBy": "Priya Patel",
+        "changedByRole": "student",
+        "timestamp": "2026-10-01T18:47:41.055Z"
+      },
+      {
+        "status": "Assigned",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-10-01T23:35:41.055Z",
+        "department": "Laboratory Technical Support & Safety Cell",
+        "remarks": "Safety officer alerted. Machine isolated."
+      }
+    ],
+    "createdAt": "2026-10-01T18:47:41.055Z",
+    "updatedAt": "2026-10-01T23:35:41.055Z"
+  },
+  {
+    "_id": "issue_cf_1004",
+    "issueId": "CF-2026-1004",
+    "studentId": "user_student_001",
+    "studentName": "Alex Chen",
+    "studentEmail": "alex.chen@campusfix.edu",
+    "studentDepartment": "Computer Science & Engineering",
+    "title": "High latency and frequent packet loss on Central Library Wi-Fi",
+    "description": "Connecting to \"Campus_Secure_5G\" in 2nd floor reading room drops connection every 3 minutes. Speedtest shows 0.2 Mbps down.",
+    "category": "Internet",
+    "location": "Central Library, 2nd Floor Silent Study Wing",
+    "priority": "Medium",
+    "status": "Pending",
+    "assignedDepartment": "Network & IT Infrastructure Cell",
+    "adminRemarks": "",
+    "statusHistory": [
+      {
+        "status": "Pending",
+        "changedBy": "Alex Chen",
+        "changedByRole": "student",
+        "timestamp": "2026-10-02T06:47:41.055Z",
+        "remarks": "Issue registered by student."
+      }
+    ],
+    "createdAt": "2026-10-02T06:47:41.055Z",
+    "updatedAt": "2026-10-02T06:47:41.055Z"
+  },
+  {
+    "_id": "issue_cf_1005",
+    "issueId": "CF-2026-1005",
+    "studentId": "user_student_002",
+    "studentName": "Priya Patel",
+    "studentEmail": "priya.patel@campusfix.edu",
+    "studentDepartment": "Mechanical Engineering",
+    "title": "Broken electrical switchboard with exposed wires near stairwell",
+    "description": "Plastic faceplate broken off in building stairwell. Live copper terminals are exposed at chest height.",
+    "category": "Electricity",
+    "location": "Science Block, West Stairwell between 1st & 2nd floors",
+    "priority": "Critical",
+    "status": "In Progress",
+    "assignedDepartment": "Electrical Works & Power Division",
+    "adminRemarks": "Area cordoned off. Power circuit isolated at main DB. Replacement modular faceplate being installed.",
+    "statusHistory": [
+      {
+        "status": "Pending",
+        "changedBy": "Priya Patel",
+        "changedByRole": "student",
+        "timestamp": "2026-10-01T06:47:41.055Z"
+      },
+      {
+        "status": "Assigned",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-10-01T11:35:41.055Z",
+        "department": "Electrical Works & Power Division"
+      },
+      {
+        "status": "In Progress",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-10-01T21:11:41.055Z",
+        "remarks": "Electrician on site with replacement materials."
+      }
+    ],
+    "createdAt": "2026-10-01T06:47:41.055Z",
+    "updatedAt": "2026-10-01T21:11:41.055Z"
+  },
+  {
+    "_id": "issue_cf_1006",
+    "issueId": "CF-2026-1006",
+    "studentId": "user_student_001",
+    "studentName": "Alex Chen",
+    "studentEmail": "alex.chen@campusfix.edu",
+    "studentDepartment": "Computer Science & Engineering",
+    "title": "Overflowing recycle bins near cafeteria entrance",
+    "description": "Recycling and compost bins have exceeded capacity since yesterday afternoon; plastic cups and containers are spilling onto the walkway.",
+    "category": "Cleanliness",
+    "location": "Student Activity Center, South Plaza Cafeteria entrance",
+    "priority": "Low",
+    "status": "Resolved",
+    "assignedDepartment": "Sanitation & Housekeeping Division",
+    "adminRemarks": "Bins emptied and sanitized. Housekeeping schedule updated for extra afternoon sweep.",
+    "statusHistory": [
+      {
+        "status": "Pending",
+        "changedBy": "Alex Chen",
+        "changedByRole": "student",
+        "timestamp": "2026-09-26T18:47:41.055Z"
+      },
+      {
+        "status": "Assigned",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-09-26T23:35:41.055Z",
+        "department": "Sanitation & Housekeeping Division"
+      },
+      {
+        "status": "Resolved",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-09-27T06:47:41.055Z",
+        "remarks": "Cleaned and cleared."
+      }
+    ],
+    "createdAt": "2026-09-26T18:47:41.055Z",
+    "updatedAt": "2026-09-27T06:47:41.055Z"
+  },
+  {
+    "_id": "issue_cf_1007",
+    "issueId": "CF-2026-1007",
+    "studentId": "user_student_002",
+    "studentName": "Priya Patel",
+    "studentEmail": "priya.patel@campusfix.edu",
+    "studentDepartment": "Mechanical Engineering",
+    "title": "Water cooler dispensing warm water and making humming noise",
+    "description": "The stainless steel drinking fountain on floor 2 is not chilling water and makes a loud vibrating noise when pressed.",
+    "category": "Water",
+    "location": "Engineering Tower B, 2nd Floor Corridor",
+    "priority": "Medium",
+    "status": "Pending",
+    "assignedDepartment": "Plumbing & Civil Maintenance",
+    "adminRemarks": "",
+    "statusHistory": [
+      {
+        "status": "Pending",
+        "changedBy": "Priya Patel",
+        "changedByRole": "student",
+        "timestamp": "2026-10-02T13:59:41.055Z"
+      }
+    ],
+    "createdAt": "2026-10-02T13:59:41.055Z",
+    "updatedAt": "2026-10-02T13:59:41.055Z"
+  },
+  {
+    "_id": "issue_cf_1008",
+    "issueId": "CF-2026-1008",
+    "studentId": "user_student_001",
+    "studentName": "Alex Chen",
+    "studentEmail": "alex.chen@campusfix.edu",
+    "studentDepartment": "Computer Science & Engineering",
+    "title": "Evening shuttle bus Route 4 delayed over 45 minutes consistently",
+    "description": "The 6:00 PM campus shuttle towards North Metro has consistently arrived after 6:45 PM all week with no driver dispatch update.",
+    "category": "Transport",
+    "location": "Main Gate Campus Transit Stop #2",
+    "priority": "Medium",
+    "status": "Assigned",
+    "assignedDepartment": "Campus Transport Fleet Operations",
+    "adminRemarks": "Coordinating with fleet manager regarding route roadworks detour.",
+    "statusHistory": [
+      {
+        "status": "Pending",
+        "changedBy": "Alex Chen",
+        "changedByRole": "student",
+        "timestamp": "2026-09-30T06:47:41.055Z"
+      },
+      {
+        "status": "Assigned",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-09-30T13:59:41.055Z",
+        "department": "Campus Transport Fleet Operations"
+      }
+    ],
+    "createdAt": "2026-09-30T06:47:41.055Z",
+    "updatedAt": "2026-09-30T13:59:41.055Z"
+  },
+  {
+    "_id": "issue_cf_1009",
+    "issueId": "CF-2026-1009",
+    "studentId": "user_student_002",
+    "studentName": "Priya Patel",
+    "studentEmail": "priya.patel@campusfix.edu",
+    "studentDepartment": "Mechanical Engineering",
+    "title": "Air conditioning unit blowing warm air in East Study Hall",
+    "description": "East Study Hall temperature reached 29°C today. The thermostat displays error code E4 and condenser unit outside is silent.",
+    "category": "Library",
+    "location": "Central Library, East Study Hall, Room 104",
+    "priority": "High",
+    "status": "In Progress",
+    "assignedDepartment": "Electrical Works & Power Division",
+    "adminRemarks": "HVAC technician diagnosed low refrigerant; pressure test currently being conducted.",
+    "statusHistory": [
+      {
+        "status": "Pending",
+        "changedBy": "Priya Patel",
+        "changedByRole": "student",
+        "timestamp": "2026-09-29T18:47:41.055Z"
+      },
+      {
+        "status": "Assigned",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-09-29T23:35:41.055Z",
+        "department": "Electrical Works & Power Division"
+      },
+      {
+        "status": "In Progress",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-09-30T18:47:41.055Z",
+        "remarks": "HVAC team working on the rooftop condenser unit."
+      }
+    ],
+    "createdAt": "2026-09-29T18:47:41.055Z",
+    "updatedAt": "2026-09-30T18:47:41.055Z"
+  },
+  {
+    "_id": "issue_cf_1010",
+    "issueId": "CF-2026-1010",
+    "studentId": "user_student_001",
+    "studentName": "Alex Chen",
+    "studentEmail": "alex.chen@campusfix.edu",
+    "studentDepartment": "Computer Science & Engineering",
+    "title": "Unsanitary tray return conveyor belt in Food Court",
+    "description": "Food residue has accumulated along the automatic roller belt at station 2, causing bad odors and attracting flies.",
+    "category": "Canteen",
+    "location": "Main Dining Commons, First Floor Dish Return Station #2",
+    "priority": "High",
+    "status": "Resolved",
+    "assignedDepartment": "Campus Hospitality & Food Safety Committee",
+    "adminRemarks": "Deep steam cleaned and food-grade disinfectant applied. Conveyor mechanism serviced.",
+    "statusHistory": [
+      {
+        "status": "Pending",
+        "changedBy": "Alex Chen",
+        "changedByRole": "student",
+        "timestamp": "2026-09-28T18:47:41.055Z"
+      },
+      {
+        "status": "Assigned",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-09-28T23:35:41.055Z",
+        "department": "Campus Hospitality & Food Safety Committee"
+      },
+      {
+        "status": "Resolved",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-09-29T13:59:41.055Z",
+        "remarks": "Steam sanitation completed and inspected by food hygiene officer."
+      }
+    ],
+    "createdAt": "2026-09-28T18:47:41.055Z",
+    "updatedAt": "2026-09-29T13:59:41.055Z"
+  },
+  {
+    "issueId": "CF-2026-1011-20",
+    "studentId": "d8f9550a-f7ab-49c0-98b7-471fad1e42cd",
+    "studentName": "Sarah Connor",
+    "studentEmail": "sarah.connor@campusfix.edu",
+    "studentDepartment": "Computer Science & Engineering",
+    "title": "Water leaking in hostel bathroom",
+    "description": "Overhead pipe cracked in 3rd floor washroom",
+    "category": "Hostel",
+    "location": "Hostel Block C, Floor 3, Washroom",
+    "priority": "High",
+    "status": "Resolved",
+    "assignedDepartment": "Plumbing & Civil Maintenance",
+    "adminRemarks": "Riser pipe replaced, water pressure tested, area sanitized.",
+    "statusHistory": [
+      {
+        "status": "Pending",
+        "changedBy": "Sarah Connor",
+        "changedByRole": "student",
+        "timestamp": "2026-10-02T18:48:27.159Z",
+        "remarks": "Issue submitted by student."
+      },
+      {
+        "status": "In Progress",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-10-02T18:48:37.217Z",
+        "remarks": "Plumbing crew on site replacing the cracked riser pipe.",
+        "department": "Plumbing & Civil Maintenance"
+      },
+      {
+        "status": "Resolved",
+        "changedBy": "Campus Facility Administrator",
+        "changedByRole": "admin",
+        "timestamp": "2026-10-02T18:48:37.251Z",
+        "remarks": "Riser pipe replaced, water pressure tested, area sanitized.",
+        "department": "Plumbing & Civil Maintenance"
+      }
+    ],
+    "createdAt": "2026-10-02T18:48:27.159Z",
+    "updatedAt": "2026-10-02T18:48:37.251Z",
+    "_id": "56e8bb89-0bc7-4684-b746-2cf56b369116"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "user_admin_001",
+    "name": "Campus Facility Administrator",
+    "email": "admin@campusfix.edu",
+    "password": "$2b$10$ZNYQ8hb93wwvo3tRvTEHwuByKhQrxDqOMA/HBr/ismqikyLEfzFeC",
+    "department": "Estate & Campus Facilities Directorate",
+    "year": "Faculty/Admin",
+    "role": "admin",
+    "createdAt": "2026-09-02T18:47:41.054Z"
+  },
+  {
+    "_id": "user_student_001",
+    "name": "Alex Chen",
+    "email": "alex.chen@campusfix.edu",
+    "password": "$2b$10$ZNYQ8hb93wwvo3tRvTEHwuJ1N3bc9Hxztq/p9/lifRazA4RxQ6U.y",
+    "department": "Computer Science & Engineering",
+    "year": "3rd Year",
+    "role": "student",
+    "createdAt": "2026-09-07T18:47:41.054Z"
+  },
+  {
+    "_id": "user_student_002",
+    "name": "Priya Patel",
+    "email": "priya.patel@campusfix.edu",
+    "password": "$2b$10$ZNYQ8hb93wwvo3tRvTEHwuJ1N3bc9Hxztq/p9/lifRazA4RxQ6U.y",
+    "department": "Mechanical Engineering",
+    "year": "2nd Year",
+    "role": "student",
+    "createdAt": "2026-09-12T18:47:41.054Z"
+  },
+  {
+    "name": "Sarah Connor",
+    "email": "sarah.connor@campusfix.edu",
+    "password": "$2b$10$OwptbCVdYwmhHiOgA6IyLO4bFIq8cXB59FtFugZSbhlG/SMH28xxi",
+    "department": "Computer Science & Engineering",
+    "year": "2nd Year",
+    "role": "student",
+    "createdAt": "2026-10-02T18:48:06.287Z",
+    "_id": "d8f9550a-f7ab-49c0-98b7-471fad1e42cd"
+  }
+]

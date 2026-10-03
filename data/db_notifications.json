@@ -1,0 +1,73 @@
+[
+  {
+    "_id": "notif_1",
+    "userId": "user_student_001",
+    "message": "Your issue CF-2026-1001 (Water leaking) is now In Progress by Plumbing & Civil Maintenance.",
+    "type": "status_change",
+    "issueId": "CF-2026-1001",
+    "read": false,
+    "createdAt": "2026-10-01T18:47:41.055Z"
+  },
+  {
+    "_id": "notif_2",
+    "userId": "user_student_001",
+    "message": "Your issue CF-2026-1002 (Lecture Hall 302 projector) has been Resolved!",
+    "type": "resolved",
+    "issueId": "CF-2026-1002",
+    "read": true,
+    "createdAt": "2026-09-28T23:35:41.055Z"
+  },
+  {
+    "_id": "notif_3",
+    "userId": "user_student_002",
+    "message": "Your issue CF-2026-1003 has been Assigned to Laboratory Technical Support & Safety Cell.",
+    "type": "assigned",
+    "issueId": "CF-2026-1003",
+    "read": false,
+    "createdAt": "2026-10-01T23:35:41.055Z"
+  },
+  {
+    "_id": "notif_4",
+    "userId": "user_student_002",
+    "message": "Admin added remark to CF-2026-1005: \"Power circuit isolated; replacement faceplate being installed.\"",
+    "type": "remark",
+    "issueId": "CF-2026-1005",
+    "read": false,
+    "createdAt": "2026-10-01T21:11:41.055Z"
+  },
+  {
+    "userId": "d8f9550a-f7ab-49c0-98b7-471fad1e42cd",
+    "message": "Welcome to CampusFix, Sarah Connor! You can now submit and track campus issues.",
+    "type": "system",
+    "read": false,
+    "createdAt": "2026-10-02T18:48:06.291Z",
+    "_id": "e935a0b6-ad11-46fc-bee0-507ebf3cabe6"
+  },
+  {
+    "userId": "d8f9550a-f7ab-49c0-98b7-471fad1e42cd",
+    "message": "Your issue CF-2026-1011-20 (\"Water leaking in hostel bathro...\") has been submitted and queued for review.",
+    "type": "submission",
+    "issueId": "CF-2026-1011-20",
+    "read": false,
+    "createdAt": "2026-10-02T18:48:27.159Z",
+    "_id": "45d541b6-c3cb-428b-b2b2-e6f785c1cd6b"
+  },
+  {
+    "userId": "d8f9550a-f7ab-49c0-98b7-471fad1e42cd",
+    "message": "Status of issue CF-2026-1011-20 changed from Pending to In Progress.",
+    "type": "status_change",
+    "issueId": "CF-2026-1011-20",
+    "read": false,
+    "createdAt": "2026-10-02T18:48:37.217Z",
+    "_id": "8a6e7261-7d2d-4397-974f-8382ada298dc"
+  },
+  {
+    "userId": "d8f9550a-f7ab-49c0-98b7-471fad1e42cd",
+    "message": "Your issue CF-2026-1011-20 has been resolved! Remarks: \"Riser pipe replaced, water pressure tested, area sanitized.\".",
+    "type": "resolved",
+    "issueId": "CF-2026-1011-20",
+    "read": false,
+    "createdAt": "2026-10-02T18:48:37.251Z",
+    "_id": "14ce2f7d-6743-4939-a04a-1ca93cc9e066"
+  }
+]
