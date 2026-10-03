@@ -1,6 +1,9 @@
 # Enterprise Capstone Deliverables – CampusFix
 
 > **Project:** CampusFix – AI-Powered Campus Issue & Facility Management Platform  
+> **Student Name:** Jamuna S  
+> **Roll Number:** 2023103567  
+> **Repository:** https://github.com/JamunaSenthil/CampusFix-AI-Powered-Campus-Issue-Management-System  
 > **Course:** Internet of Computation (IoC) Capstone  
 > **Documentation Standard:** Enterprise Architecture Completeness Framework (5 Core Artifacts)
 

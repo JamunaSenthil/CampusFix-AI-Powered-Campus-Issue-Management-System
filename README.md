@@ -1,7 +1,10 @@
 # CampusFix – AI-Powered Campus Issue Management System
 
 > **Course Assignment:** Internet of Computation (IoC)  
+> **Student Name:** Jamuna S  
+> **Roll Number:** 2023103567  
 > **Project Title:** CampusFix – AI-Powered Campus Issue Management System  
+> **GitHub Repository:** [https://github.com/JamunaSenthil/CampusFix-AI-Powered-Campus-Issue-Management-System](https://github.com/JamunaSenthil/CampusFix-AI-Powered-Campus-Issue-Management-System)  
 > **Live Deployment URL:** [https://ais-pre-n5juj74dytbhepwzp2ttii-196015505867.asia-southeast1.run.app](https://ais-pre-n5juj74dytbhepwzp2ttii-196015505867.asia-southeast1.run.app)  
 
 ---

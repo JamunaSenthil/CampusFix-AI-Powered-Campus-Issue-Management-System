@@ -1,7 +1,11 @@
-# Deployment Links – CampusFix
+# Deployment Links & Submission Details – CampusFix
 
-**Project Title:** CampusFix – AI-Powered Campus Issue Management System  
-**Category:** Full-Stack Web Application (IoC Assignment Submission)  
+- **Student Name:** Jamuna S
+- **Roll Number:** 2023103567
+- **Project Title:** CampusFix – AI-Powered Campus Issue Management System
+- **GitHub Repository:** [https://github.com/JamunaSenthil/CampusFix-AI-Powered-Campus-Issue-Management-System](https://github.com/JamunaSenthil/CampusFix-AI-Powered-Campus-Issue-Management-System)
+- **Target Course Repository:** [https://github.com/ChandravadhanaTK/IoC-ScalableEnterpriseArchitecturalDeploymentsofAgenticAISolutions](https://github.com/ChandravadhanaTK/IoC-ScalableEnterpriseArchitecturalDeploymentsofAgenticAISolutions)
+- **Target Folder:** `Assignment/2023103567-JamunaS-CampusFix`
 
 ---
 

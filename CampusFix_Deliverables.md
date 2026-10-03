@@ -1,6 +1,9 @@
 # CampusFix – Project & Capstone Deliverables
 
+**Student Name:** Jamuna S  
+**Roll Number:** 2023103567  
 **Project Title:** CampusFix – AI-Powered Campus Issue Management System  
+**GitHub Repository:** https://github.com/JamunaSenthil/CampusFix-AI-Powered-Campus-Issue-Management-System  
 **Live URL:** https://ais-pre-n5juj74dytbhepwzp2ttii-196015505867.asia-southeast1.run.app  
 **Framework:** React 19, TypeScript, Tailwind CSS, Node.js + Express, MongoDB, Gemini AI  
 
